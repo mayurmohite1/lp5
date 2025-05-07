@@ -84,9 +84,9 @@ cout << num << " ";
 cout << endl;
 // Time calculation in milliseconds
 double bubbleDuration = double(bubbleEnd - bubbleStart) / CLOCKS_PER_SEC * 1000; //
-Convert to milliseconds
+
 double mergeDuration = double(mergeEnd - mergeStart) / CLOCKS_PER_SEC * 1000; //
-Convert to milliseconds
+
 cout << "Parallel Bubble sort time in milliseconds: " << bubbleDuration << " ms" << endl;
 cout << "Parallel Merge sort time in milliseconds: " << mergeDuration << " ms" << endl;
 return 0;
